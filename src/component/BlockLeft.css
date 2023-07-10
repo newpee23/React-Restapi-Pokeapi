@@ -1,0 +1,38 @@
+.spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    border-top-color: #666;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .respone-css {
+      max-height: 480px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .block-container-left{
+      height: 527.5px;
+      width: 480px;
+    }
+  }
+  
+  

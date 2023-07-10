@@ -1,0 +1,12 @@
+@media only screen and (min-width: 960px) {
+  .respone-css {
+    max-height: 480px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .block-container{
+    height: 527.5px;
+    width: 339px;
+  }
+}
+
